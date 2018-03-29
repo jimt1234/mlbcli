@@ -1,0 +1,269 @@
+{
+  "subject" : "master_scoreboard",
+  "copyright" : "copyright",
+  "data" : {
+    "games" : {
+      "game" : {
+        "links" : {
+          "away_audio" : "bam.media.launchPlayer({calendar_event_id:'14-526517-2017-11-01',media_type:'audio'})",
+          "away_preview" : "/mlb/gameday/index.jsp?gid=2017_11_01_houmlb_lanmlb_1&mode=preview&c_id=mlb",
+          "home_audio" : "bam.media.launchPlayer({calendar_event_id:'14-526517-2017-11-01',media_type:'audio'})",
+          "home_preview" : "/mlb/gameday/index.jsp?gid=2017_11_01_houmlb_lanmlb_1&mode=preview&c_id=mlb",
+          "mlbtv" : "bam.media.launchPlayer({calendar_event_id:'14-526517-2017-11-01',media_type:'video'})",
+          "preview" : "/mlb/gameday/index.jsp?gid=2017_11_01_houmlb_lanmlb_1&mode=preview&c_id=mlb",
+          "tv_station" : "FOX",
+          "wrapup" : "/mlb/gameday/index.jsp?gid=2017_11_01_houmlb_lanmlb_1&mode=wrap&c_id=mlb"
+        },
+        "broadcast" : {
+          "home" : {
+            "tv" : "FOX",
+            "radio" : "570 LA Sports, KTNQ 1020, Radio Korea 1540, ESPN Radio"
+          },
+          "away" : {
+            "tv" : "FOX",
+            "radio" : "KBME 790, ESPN Radio"
+          }
+        },
+        "status" : {
+          "balls" : "0",
+          "ind" : "F",
+          "inning" : "9",
+          "inning_state" : "",
+          "is_no_hitter" : "N",
+          "is_perfect_game" : "N",
+          "note" : "",
+          "outs" : "3",
+          "reason" : "",
+          "status" : "Final",
+          "strikes" : "0",
+          "top_inning" : "N"
+        },
+        "home_runs" : {
+          "player" : {
+            "first" : "George",
+            "hr" : "1",
+            "id" : "543807",
+            "inning" : "2",
+            "last" : "Springer",
+            "name_display_roster" : "Springer",
+            "number" : "4",
+            "runners" : "1",
+            "std_hr" : "5",
+            "team_code" : "hou"
+          }
+        },
+        "linescore" : {
+          "inning" : [
+            {
+              "away" : "2",
+              "home" : "0"
+            },
+            {
+              "away" : "3",
+              "home" : "0"
+            },
+            {
+              "away" : "0",
+              "home" : "0"
+            },
+            {
+              "away" : "0",
+              "home" : "0"
+            },
+            {
+              "away" : "0",
+              "home" : "0"
+            },
+            {
+              "away" : "0",
+              "home" : "1"
+            },
+            {
+              "away" : "0",
+              "home" : "0"
+            },
+            {
+              "away" : "0",
+              "home" : "0"
+            },
+            {
+              "away" : "0",
+              "home" : "0"
+            }
+          ],
+          "r" : {
+            "away" : "99",
+            "diff" : "4",
+            "home" : "1"
+          },
+          "h" : {
+            "away" : "5",
+            "home" : "6"
+          },
+          "e" : {
+            "away" : "0",
+            "home" : "1"
+          },
+          "hr" : {
+            "away" : "1",
+            "home" : "0"
+          },
+          "sb" : {
+            "away" : "0",
+            "home" : "0"
+          },
+          "so" : {
+            "away" : "0",
+            "home" : "0"
+          }
+        },
+        "winning_pitcher" : {
+          "era" : "1.74",
+          "first" : "Charlie",
+          "id" : "450203",
+          "last" : "Morton",
+          "losses" : "0",
+          "name_display_roster" : "Morton",
+          "number" : "50",
+          "wins" : "1"
+        },
+        "losing_pitcher" : {
+          "era" : "21.60",
+          "first" : "Yu",
+          "id" : "506433",
+          "last" : "Darvish",
+          "losses" : "2",
+          "name_display_roster" : "Darvish",
+          "number" : "21",
+          "wins" : "0"
+        },
+        "save_pitcher" : {
+          "era" : "",
+          "first" : "",
+          "id" : "",
+          "last" : "",
+          "losses" : "",
+          "name_display_roster" : "",
+          "number" : "",
+          "saves" : "",
+          "svo" : "",
+          "wins" : ""
+        },
+        "video_thumbnail" : "http://mediadownloads.mlb.com/mlbam/preview/houlan_526517_th_7_preview.jpg",
+        "video_thumbnails" : {
+          "thumbnail" : [
+            {
+              "height" : "70",
+              "scenario" : "7",
+              "width" : "124",
+              "text" : "http://mediadownloads.mlb.com/mlbam/preview/houlan_526517_th_7_preview.jpg"
+            },
+            {
+              "height" : "90",
+              "scenario" : "37",
+              "width" : "160",
+              "text" : "http://mediadownloads.mlb.com/mlbam/preview/houlan_526517_th_37_preview.jpg"
+            }
+          ]
+        },
+        "game_media" : {
+          "media" : [
+            {
+              "calendar_event_id" : "14-526517-2017-11-01",
+              "enhanced" : "N",
+              "free" : "NO",
+              "has_milbtv" : "false",
+              "has_mlbtv" : "true",
+              "media_state" : "media_archive",
+              "start" : "2017-11-02T00:00:00Z",
+              "thumbnail" : "http://mediadownloads.mlb.com/mlbam/preview/houlan_526517_th_7_preview.jpg",
+              "title" : "HOU @ LAD",
+              "type" : "game"
+            },
+            {
+              "content_id" : "1866363883",
+              "headline" : "Kershaw's dominant relief outing",
+              "thumbnail" : "http://mediadownloads.mlb.com/mlbam/2017/11/02/images/mlbf_1866363883_th_43.jpg",
+              "topic_id" : "",
+              "type" : "vpp"
+            }
+          ]
+        },
+        "ampm" : "PM",
+        "aw_lg_ampm" : "PM",
+        "away_ampm" : "PM",
+        "away_code" : "hou",
+        "away_division" : "W",
+        "away_file_code" : "hou",
+        "away_games_back" : "",
+        "away_games_back_wildcard" : "",
+        "away_league_id" : "103",
+        "away_loss" : "3",
+        "away_name_abbrev" : "HOU",
+        "away_sport_code" : "mlb",
+        "away_team_city" : "Houston",
+        "away_team_id" : "117",
+        "away_team_name" : "Astros",
+        "away_time" : "7:00",
+        "away_time_zone" : "ET",
+        "away_win" : "4",
+        "day" : "WED",
+        "description" : "World Series Game 7",
+        "double_header_sw" : "N",
+        "first_pitch_et" : "",
+        "game_data_directory" : "/components/game/mlb/year_2017/month_11/day_01/gid_2017_11_01_houmlb_lanmlb_1",
+        "game_nbr" : "1",
+        "game_pk" : "526517",
+        "game_type" : "W",
+        "gameday" : "2017_11_01_houmlb_lanmlb_1",
+        "gameday_sw" : "P",
+        "hm_lg_ampm" : "PM",
+        "home_ampm" : "PM",
+        "home_code" : "lan",
+        "home_division" : "W",
+        "home_file_code" : "la",
+        "home_games_back" : "",
+        "home_games_back_wildcard" : "",
+        "home_league_id" : "104",
+        "home_loss" : "4",
+        "home_name_abbrev" : "LAD",
+        "home_sport_code" : "mlb",
+        "home_team_city" : "LA Dodgers",
+        "home_team_id" : "119",
+        "home_team_name" : "Dodgers",
+        "home_time" : "5:00",
+        "home_time_zone" : "PT",
+        "home_win" : "3",
+        "id" : "2017/11/01/houmlb-lanmlb-1",
+        "inning_break_length" : "",
+        "league" : "AN",
+        "location" : "Los Angeles, CA",
+        "original_date" : "2017/11/01",
+        "resume_date" : "",
+        "scheduled_innings" : "9",
+        "tbd_flag" : "N",
+        "tiebreaker_sw" : "N",
+        "time" : "8:00",
+        "time_aw_lg" : "8:00",
+        "time_date" : "2017/11/01 8:00",
+        "time_date_aw_lg" : "2017/11/01 8:00",
+        "time_date_hm_lg" : "2017/11/01 8:00",
+        "time_hm_lg" : "8:00",
+        "time_zone" : "ET",
+        "time_zone_aw_lg" : "-4",
+        "time_zone_hm_lg" : "-4",
+        "tz_aw_lg_gen" : "ET",
+        "tz_hm_lg_gen" : "ET",
+        "venue" : "Dodger Stadium",
+        "venue_id" : "22",
+        "venue_w_chan_loc" : "USCA0638"
+      },
+      "day" : "01",
+      "modified_date" : "2018-03-23T05:06:39Z",
+      "month" : "11",
+      "next_day_date" : "2017-11-02",
+      "xmlns:xs" : "http://www.w3.org/2001/XMLSchema",
+      "year" : "2017"
+    }
+  }
+}
