@@ -8,15 +8,15 @@ brew install mlbcli
 ```
 You can also download the binary and put it in `/usr/local/bin/`:
 ```
-wget https://github.com/jimt1234/blah
+wget https://github.com/jimt1234/mlbcli/releases/download/v0.1.0/mlbcli-0.1.0-darwin-amd64.zip
 ```
 Same thing for Linux:
 ```
-wget https://github.com/jimt1234/blah
+wget https://github.com/jimt1234/mlbcli/releases/download/v0.1.0/mlbcli-0.1.0-linux-386.zip
 ```
-And Windows:
+And [Windows](http://gnuwin32.sourceforge.net/packages/wget.htm):
 ```
-wget https://github.com/jimt1234/blah
+wget https://github.com/jimt1234/mlbcli/releases/download/v0.1.0/mlbcli-0.1.0-windows-386.exe.zip
 ```
 ### Usage
 Defaults to current day:
