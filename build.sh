@@ -4,6 +4,11 @@ PACKAGE="mlbcli"
 VERSION="0.1.0"
 PLATFORMS="linux/386,windows/386,darwin/amd64"
 
+go get github.com/tidwall/match
+go get github.com/apcera/termtables
+go get github.com/tidwall/gjson
+go get gopkg.in/jarcoal/httpmock.v1
+
 go test
 if [ "$?" -ne 0 ]; then
   exit 1
