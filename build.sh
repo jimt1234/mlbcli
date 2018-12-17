@@ -19,7 +19,7 @@ go get gopkg.in/jarcoal/httpmock.v1
 go test
 if [ "$?" -ne 0 ]; then
   echo "go test failed"
-  exit 6
+  exit 7
 fi
 
 for PLATFORM in $(echo ${PLATFORMS}|sed 's/,/ /g'); do
