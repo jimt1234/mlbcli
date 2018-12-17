@@ -1,0 +1,43 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "Klt5w62Sqnwud0JkWcukVAvLqrQ=",
+			"path": "github.com/apcera/termtables",
+			"revision": "bcbc5dc54055d14996b256d348fb75cc6debe282",
+			"revisionTime": "2017-04-05T18:45:38Z"
+		},
+		{
+			"checksumSHA1": "RVjHxo532l+rwsh1Al35oL8ZCi0=",
+			"path": "github.com/apcera/termtables/term",
+			"revision": "bcbc5dc54055d14996b256d348fb75cc6debe282",
+			"revisionTime": "2017-04-05T18:45:38Z"
+		},
+		{
+			"checksumSHA1": "Pu56hM6LNf/p2WRL0IvhUBBnwDA=",
+			"path": "github.com/mattn/go-runewidth",
+			"revision": "3ee7d812e62a0804a7d0a324e0249ca2db3476d3",
+			"revisionTime": "2018-12-10T06:59:43Z"
+		},
+		{
+			"checksumSHA1": "QI+LuP9gKNIfftobaThCcAnOCX0=",
+			"path": "github.com/tidwall/gjson",
+			"revision": "081192fa2e471ddff3ec98a3cc04fecfd031ed57",
+			"revisionTime": "2018-10-28T15:46:04Z"
+		},
+		{
+			"checksumSHA1": "8jl+NYRKijAXkUwjpy89Q60q00A=",
+			"path": "github.com/tidwall/match",
+			"revision": "33827db735fff6510490d69a8622612558a557ed",
+			"revisionTime": "2018-12-10T10:08:38Z"
+		},
+		{
+			"checksumSHA1": "H4xyMCqyHvxgZlz7kPafvdJXkQM=",
+			"path": "gopkg.in/jarcoal/httpmock.v1",
+			"revision": "275e9df93516fc27a998eca24c8f1cca277ce5bf",
+			"revisionTime": "2018-11-17T15:22:35Z"
+		}
+	],
+	"rootPath": "github.com/jimt1234/mlbcli"
+}
