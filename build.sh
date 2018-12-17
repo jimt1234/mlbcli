@@ -2,7 +2,8 @@
 
 PACKAGE="mlbcli"
 VERSION="0.1.0"
-PLATFORMS="linux/386,windows/386,darwin/amd64"
+#PLATFORMS="linux/386,windows/386,darwin/amd64"
+PLATFORMS="darwin/amd64"
 
 go get github.com/tidwall/match
 go get github.com/apcera/termtables
@@ -23,6 +24,6 @@ for PLATFORM in $(echo ${PLATFORMS}|sed 's/,/ /g'); do
   fi
   rm -f $OUTPUT ${OUTPUT}.zip
   env GOOS=$GOOS GOARCH=$GOARCH go build -o $OUTPUT
-  zip -q -9 ${OUTPUT}.zip $OUTPUT
-  shasum -a  256 ${OUTPUT}.zip
+  # zip -q -9 ${OUTPUT}.zip $OUTPUT
+  shasum -a  256 ${OUTPUT}
 done
