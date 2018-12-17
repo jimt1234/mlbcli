@@ -12,7 +12,7 @@ go get gopkg.in/jarcoal/httpmock.v1
 
 go test
 if [ "$?" -ne 0 ]; then
-  exit 12
+  exit 13
 fi
 
 for PLATFORM in $(echo ${PLATFORMS}|sed 's/,/ /g'); do
