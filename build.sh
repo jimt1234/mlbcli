@@ -32,5 +32,5 @@ for PLATFORM in $(echo ${PLATFORMS}|sed 's/,/ /g'); do
   rm -f $OUTPUT ${OUTPUT}.zip
   env GOOS=$GOOS GOARCH=$GOARCH go build -o $OUTPUT
   # zip -q -9 ${OUTPUT}.zip $OUTPUT
-  shasum -a  256 ${OUTPUT} > sha.out
+  shasum -a  256 ${OUTPUT} | awk '{print $1}' > sha.out
 done
