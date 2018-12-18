@@ -6,10 +6,9 @@ PLATFORMS="darwin/amd64"
 
 VERSION="$(cat version)"
 if [ ! "$VERSION" ]; then
-  echo "No version in repo"
+  echo "missing version file"
   exit 1
 fi
-
 
 go get github.com/tidwall/match
 go get github.com/apcera/termtables
@@ -19,7 +18,7 @@ go get gopkg.in/jarcoal/httpmock.v1
 go test
 if [ "$?" -ne 0 ]; then
   echo "go test failed"
-  exit 9
+  exit 1
 fi
 
 for PLATFORM in $(echo ${PLATFORMS}|sed 's/,/ /g'); do
