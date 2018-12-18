@@ -42,7 +42,11 @@ func getDataFromMLB(dateArg string) []gjson.Result {
 			m = "Is there a game tomorrow?"
 		}
 
-		// TODO
+		t := time.Now()
+		month := int(t.Month())
+		if month == 12 {
+			m = "Did you really think there was baseball in December?"
+		}
 
 		fmt.Println("Problem with data returned from MLB API. " + m)
 		os.Exit(1)
