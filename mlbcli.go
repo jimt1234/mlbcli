@@ -11,11 +11,12 @@ func main() {
 	for _, i := range os.Args {
 		if match.Match(i, "*help") || match.Match(i, "*-h") {
 			displayHelp()
-			os.Exit(0)
+			os.Exit(1)
 		}
 	}
 
 	var dateArg string
+	var notdateArg string
 
 	if len(os.Args) < 2 {
 		dateArg = "today"
