@@ -19,6 +19,8 @@ func main() {
 
 	if len(os.Args) < 2 {
 		dateArg = "today"
+	} else if len(os.Args) < 2 {
+		dateArg = "hoy"
 	} else {
 		dateArg = os.Args[1]
 	}
